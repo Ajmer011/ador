@@ -1,6 +1,6 @@
 // components/Hero.jsx - Hero Section Component
 import React from "react";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -37,9 +37,7 @@ const Hero = () => {
 
           {/* MAIN HEADING */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
-            <span className="text-gradient">
-              GROW YOUR BRAND ORBIT
-            </span>
+            <span className="text-gradient">GROW YOUR BRAND ORBIT</span>
           </h1>
 
           {/* Subtitle */}
@@ -48,14 +46,12 @@ const Hero = () => {
             strategies, creative campaigns, and measurable growth.
           </p>
 
-          {/* CTA Buttons */}
+          {/* CTA Button */}
           <div className="flex flex-col sm:flex-row gap-5">
             <button className="btn-primary flex items-center gap-2">
               Get Started
               <ArrowRight size={20} />
             </button>
-
-          
           </div>
 
           {/* Stats */}
