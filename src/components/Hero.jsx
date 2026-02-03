@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="flex flex-col items-center space-y-10">
           {/* Badge */}
           <span className="px-5 py-2 bg-neon-blue/20 text-neon-blue rounded-full text-sm font-semibold">
-            #1 Marketing Agency 2024
+            
           </span>
 
           {/* MAIN HEADING */}
