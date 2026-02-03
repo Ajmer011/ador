@@ -1,4 +1,4 @@
-// components/Navbar.jsx - Navigation Bar Component
+tu// components/Navbar.jsx - Navigation Bar Component
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -49,7 +49,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#hero" className="text-2xl font-bold text-gradient">
-              Adorbit
+              
             </a>
           </div>
 
