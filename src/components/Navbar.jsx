@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#hero" className="text-2xl font-bold text-gradient">
-              MarketPro
+              Adorbit
             </a>
           </div>
 
