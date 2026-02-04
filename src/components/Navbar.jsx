@@ -45,13 +45,17 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <img className="h-10 w-auto object-contain" src="/ADORBIT_LOGO-8.png" alt="Logo" />
+          
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <a href="#hero" className="text-2xl font-bold text-gradient">
-              
-            </a>
-          </div>
+<div className="flex-shrink-0">
+  <a href="#hero">
+    <img
+      className="h-10 w-auto object-contain"
+      src="/ADORBIT_LOGO-8.png"
+      alt="AdOrbit Logo"
+    />
+  </a>
+</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
