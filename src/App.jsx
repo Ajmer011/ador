@@ -46,7 +46,6 @@ function App() {
           <Services />
           <WhyChooseUs />
           <Portfolio />
-          <Testimonials />
           <Pricing />
           <Contact />
         </main>
