@@ -40,7 +40,7 @@ function App() {
         {/* Navigation Bar */}
         <Navbar />
         
-        {/* Main Content Sections */}
+        {/* Main Content Sections }
         <main>
           <Hero />
           <Services />
@@ -48,7 +48,12 @@ function App() {
           <Portfolio />
           <Pricing />
           <Contact />
-        </main>
+        </main> */} 
+<main>
+  {/* <Hero /> */}
+  <Services />
+  <WhyChooseUs />
+</main>
         
         {/* Footer */}
         <Footer />
